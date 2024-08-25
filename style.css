@@ -21,3 +21,141 @@ body {
 
 
 /* ----- zde zacni psat vlastni css ----- */
+body {
+    background-color: #ecebeb;
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-part {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #959595;
+}
+
+/* Left part of this page */
+.shoe-img {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    width: 350px;
+    height: 500px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
+.shoe-img .logo {
+    width: 70px;
+    height: 70px;
+}
+
+.shoe-img .shoe {
+    position: absolute;
+    bottom: 30px;
+    left: -80px;
+}
+
+.shoe-img p:first-of-type {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.shoe-img .text-right {
+    float: right;
+    text-align: end;
+    padding-top: 250px;
+}
+
+.shoe-img p {
+    margin: 0;
+}
+
+.shoe-img .text-right p:first-child {
+    font-size: 30px;
+}
+
+.shoe-img .text-right p:nth-child(2) {
+    font-size: 13px;
+}
+
+/* Right part of this page */
+.shoe-text {
+    background-color: #f5f5f5;
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+}
+
+.shoe-text p:first-of-type {
+    color: #959595;
+    font-size: 13px;
+    margin: 0;
+}
+
+.shoe-text h3 {
+    text-transform: uppercase;
+}
+
+.shoe-text .content {
+    font-size: 13px;
+    font-weight: 450;
+    padding: 30px 0 15px 0;
+    line-height: 1.5;
+}
+
+.shoe-text .line {
+    border: 1px solid #06d7c1;
+}
+
+.shoe-text .size {
+    margin: 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.shoe-text .list-size ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.shoe-text .list-size ul li a {
+    text-decoration: none;
+}
+
+.shoe-text .list-size ul li a:focus {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.shoe-text button {
+    background-color: #f15f42;
+    padding: 15px 30px;
+    border-radius: 5px; 
+    font-family: "Rubik", sans-serif; 
+    margin-left: 10px;
+    border: 1px solid #f15f42;
+}
+
+.shoe-text button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
