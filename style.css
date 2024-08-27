@@ -144,6 +144,7 @@ body {
     padding: 5px;
 }
 
+/* původní návrh řešení
 .shoe-text button {
     background-color: #f15f42;
     padding: 15px 30px;
@@ -154,6 +155,19 @@ body {
 }
 
 .shoe-text button a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+*/
+
+.shoe-text a.to-basket {
+    width: 20px;
+    height: 10px;
+    background-color: #f15f42;
+    padding: 15px 30px;
+    border: 1px solid #f15f42;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
